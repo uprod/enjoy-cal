@@ -1,0 +1,33 @@
+{
+    "name": "enjoyCalendar",
+    "title": "enjoyCalendar",
+    "description": "jQuery Calendar",
+    "keywords": [
+        "calendar"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "u-prod laurent guyard",
+        "url": "https://github.com/uprod/enjoyCalendar"
+    },
+    "maintainers": [
+        {
+            "name": "Laurent Guyard",
+            "email": "lguyard@gmail.com",
+            "url": "http://u-prod.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/uprod/enjoyCalendar/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/uprod/enjoyCalendar/issues",
+    "homepage": "https://github.com/uprod/enjoyCalendar",
+    "docs": "https://github.com/uprod/enjoyCalendar",
+    "download": "http://code.jquery.com/#enjoyCalendar",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}

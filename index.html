@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>jQuery plugin : enjoyCalendar</title>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<style>
+body { font-family: 'Open Sans', sans-serif; }
+#calendar { 
+	width: 170px;
+	border: 1px solid grey;
+	font-size: 0.8rem;
+}
+</style>  
+</head>
+<body>    
+
+
+<div id="calendar"></div>
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="lib/enjoyCalendar.js"></script>
+<script>
+$(function(){
+    $('#calendar').enjoyCalendar({
+    	format: 'Y-m-d',
+    	col: 3, // 3, 4 or 5
+        dayColor: '#EEE',
+        daysColorOver: 'pink',
+        daysSelected: 'yellowgreen',
+        daysEvent: 'orange',
+        url: 'index2.html?date=',
+        events: ['2015-04-15','2015-04-11','2015-04-04']
+    });
+});	
+</script>
+    
+</body>
+</html>
