@@ -1,5 +1,5 @@
-# enjoy-cal
-new jquery calendar
+# EnjoyCalendar
+Another jquery calendar
 
 ## Requires
 * jQuery
